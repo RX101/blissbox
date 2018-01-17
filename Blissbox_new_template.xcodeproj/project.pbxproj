@@ -7,14 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440983B41FFF771F00199C22 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440983B31FFF771F00199C22 /* RegisterViewController.swift */; };
+		4440B60C20070B3D00E29B38 /* ScanBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4440B60B20070B3D00E29B38 /* ScanBarcodeViewController.swift */; };
+		4440B60E20075D3C00E29B38 /* cartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4440B60D20075D3C00E29B38 /* cartData.swift */; };
+		4440EBC720089A3500F0EE3B /* UniverseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4440EBC620089A3500F0EE3B /* UniverseViewController.swift */; };
+		4440EBC920089D9100F0EE3B /* UniverseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4440EBC820089D9100F0EE3B /* UniverseCollectionViewCell.swift */; };
+		44413CC82005A9FA00B2966F /* ExperienceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44413CC72005A9FA00B2966F /* ExperienceDetailsViewController.swift */; };
+		4442AA15200452DF00622C92 /* giftboxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA14200452DF00622C92 /* giftboxData.swift */; };
+		4442AA172004533B00622C92 /* apiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA162004533B00622C92 /* apiFile.swift */; };
+		4442AA192004663400622C92 /* GiftboxDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA182004663400622C92 /* GiftboxDetailsViewController.swift */; };
+		4442AA3B2004BEDD00622C92 /* ExperienceTableViewCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA3A2004BEDD00622C92 /* ExperienceTableViewCelll.swift */; };
+		4442AA3D2004BF5700622C92 /* ExperienceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA3C2004BF5700622C92 /* ExperienceTableViewController.swift */; };
+		4442AA3F2004C53D00622C92 /* experienceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA3E2004C53D00622C92 /* experienceData.swift */; };
+		449B85851FFA41040020D457 /* Quicksand in Resources */ = {isa = PBXBuildFile; fileRef = 449B85841FFA41030020D457 /* Quicksand */; };
+		449B85881FFA42C10020D457 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449B85871FFA42C00020D457 /* MapKit.framework */; };
+		449B858A1FFA42DB0020D457 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449B85891FFA42DB0020D457 /* CoreLocation.framework */; };
+		449B858C1FFA478E0020D457 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B858B1FFA478E0020D457 /* CartTableViewCell.swift */; };
+		44A150E41FF4EC4A00052E0D /* NearbyExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A150E31FF4EC4A00052E0D /* NearbyExperienceViewController.swift */; };
+		44A150E61FF4ECC400052E0D /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A150E51FF4ECC400052E0D /* CartViewController.swift */; };
+		44A150E81FF4ECD700052E0D /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A150E71FF4ECD700052E0D /* MyAccountViewController.swift */; };
 		44E0D0FB1FE9115B00670941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0D0FA1FE9115B00670941 /* AppDelegate.swift */; };
 		44E0D0FD1FE9115B00670941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0D0FC1FE9115B00670941 /* ViewController.swift */; };
 		44E0D1001FE9115B00670941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E0D0FE1FE9115B00670941 /* Main.storyboard */; };
 		44E0D1021FE9115B00670941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E0D1011FE9115B00670941 /* Assets.xcassets */; };
 		44E0D1051FE9115B00670941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E0D1031FE9115B00670941 /* LaunchScreen.storyboard */; };
+		44E0D10D1FE9ED4100670941 /* HomepageUniverseListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0D10C1FE9ED4100670941 /* HomepageUniverseListCollectionViewCell.swift */; };
+		44E0D10F1FE9F54400670941 /* FeatureBoxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0D10E1FE9F54400670941 /* FeatureBoxCollectionViewCell.swift */; };
+		44E0D1111FE9FAF900670941 /* HomepageRandomExperienceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0D1101FE9FAF900670941 /* HomepageRandomExperienceCollectionViewCell.swift */; };
+		44EB266B1FFB396800C2A138 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB266A1FFB396800C2A138 /* LoginViewController.swift */; };
+		6054F5902EDA2C3BDD08EF58 /* Pods_Blissbox_new_template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DE8D46B7CEE27AE062A22B /* Pods_Blissbox_new_template.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00DE8D46B7CEE27AE062A22B /* Pods_Blissbox_new_template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blissbox_new_template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20716CB3B01486EDA633F102 /* Pods-Blissbox_new_template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blissbox_new_template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template.debug.xcconfig"; sourceTree = "<group>"; };
+		440983B31FFF771F00199C22 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4440B60B20070B3D00E29B38 /* ScanBarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBarcodeViewController.swift; sourceTree = "<group>"; };
+		4440B60D20075D3C00E29B38 /* cartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartData.swift; sourceTree = "<group>"; };
+		4440EBC620089A3500F0EE3B /* UniverseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseViewController.swift; sourceTree = "<group>"; };
+		4440EBC820089D9100F0EE3B /* UniverseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseCollectionViewCell.swift; sourceTree = "<group>"; };
+		44413CC72005A9FA00B2966F /* ExperienceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetailsViewController.swift; sourceTree = "<group>"; };
+		4442AA14200452DF00622C92 /* giftboxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftboxData.swift; sourceTree = "<group>"; };
+		4442AA162004533B00622C92 /* apiFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiFile.swift; sourceTree = "<group>"; };
+		4442AA182004663400622C92 /* GiftboxDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftboxDetailsViewController.swift; sourceTree = "<group>"; };
+		4442AA3A2004BEDD00622C92 /* ExperienceTableViewCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCelll.swift; sourceTree = "<group>"; };
+		4442AA3C2004BF5700622C92 /* ExperienceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewController.swift; sourceTree = "<group>"; };
+		4442AA3E2004C53D00622C92 /* experienceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceData.swift; sourceTree = "<group>"; };
+		449B85841FFA41030020D457 /* Quicksand */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Quicksand; path = ../../../Blissbox/Blissbox/Quicksand; sourceTree = "<group>"; };
+		449B85871FFA42C00020D457 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		449B85891FFA42DB0020D457 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		449B858B1FFA478E0020D457 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		44A150E31FF4EC4A00052E0D /* NearbyExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyExperienceViewController.swift; sourceTree = "<group>"; };
+		44A150E51FF4ECC400052E0D /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		44A150E71FF4ECD700052E0D /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
 		44E0D0F71FE9115B00670941 /* Blissbox_new_template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blissbox_new_template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E0D0FA1FE9115B00670941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E0D0FC1FE9115B00670941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +67,11 @@
 		44E0D1011FE9115B00670941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E0D1041FE9115B00670941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44E0D1061FE9115B00670941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E0D10C1FE9ED4100670941 /* HomepageUniverseListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageUniverseListCollectionViewCell.swift; sourceTree = "<group>"; };
+		44E0D10E1FE9F54400670941 /* FeatureBoxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureBoxCollectionViewCell.swift; sourceTree = "<group>"; };
+		44E0D1101FE9FAF900670941 /* HomepageRandomExperienceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRandomExperienceCollectionViewCell.swift; sourceTree = "<group>"; };
+		44EB266A1FFB396800C2A138 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C66D1B1F81EBC300F1062B69 /* Pods-Blissbox_new_template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blissbox_new_template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449B858A1FFA42DB0020D457 /* CoreLocation.framework in Frameworks */,
+				449B85881FFA42C10020D457 /* MapKit.framework in Frameworks */,
+				6054F5902EDA2C3BDD08EF58 /* Pods_Blissbox_new_template.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4440B6092006FD7400E29B38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4440EBC620089A3500F0EE3B /* UniverseViewController.swift */,
+				4440B60B20070B3D00E29B38 /* ScanBarcodeViewController.swift */,
+				4442AA182004663400622C92 /* GiftboxDetailsViewController.swift */,
+				440983B31FFF771F00199C22 /* RegisterViewController.swift */,
+				44A150E51FF4ECC400052E0D /* CartViewController.swift */,
+				44A150E71FF4ECD700052E0D /* MyAccountViewController.swift */,
+				44A150E31FF4EC4A00052E0D /* NearbyExperienceViewController.swift */,
+				44E0D0FC1FE9115B00670941 /* ViewController.swift */,
+				44413CC72005A9FA00B2966F /* ExperienceDetailsViewController.swift */,
+				4442AA3C2004BF5700622C92 /* ExperienceTableViewController.swift */,
+				44EB266A1FFB396800C2A138 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4440B60A2006FE3B00E29B38 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				44E0D0FE1FE9115B00670941 /* Main.storyboard */,
+				44E0D1031FE9115B00670941 /* LaunchScreen.storyboard */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		44413CEB20060FC300B2966F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4440EBC820089D9100F0EE3B /* UniverseCollectionViewCell.swift */,
+				449B858B1FFA478E0020D457 /* CartTableViewCell.swift */,
+				4442AA3A2004BEDD00622C92 /* ExperienceTableViewCelll.swift */,
+				44E0D1101FE9FAF900670941 /* HomepageRandomExperienceCollectionViewCell.swift */,
+				44E0D10E1FE9F54400670941 /* FeatureBoxCollectionViewCell.swift */,
+				44E0D10C1FE9ED4100670941 /* HomepageUniverseListCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		44413CEC2006105E00B2966F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4440B60D20075D3C00E29B38 /* cartData.swift */,
+				4442AA162004533B00622C92 /* apiFile.swift */,
+				4442AA14200452DF00622C92 /* giftboxData.swift */,
+				4442AA3E2004C53D00622C92 /* experienceData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		449B85861FFA42C00020D457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				449B85891FFA42DB0020D457 /* CoreLocation.framework */,
+				449B85871FFA42C00020D457 /* MapKit.framework */,
+				00DE8D46B7CEE27AE062A22B /* Pods_Blissbox_new_template.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44E0D0EE1FE9115B00670941 = {
 			isa = PBXGroup;
 			children = (
 				44E0D0F91FE9115B00670941 /* Blissbox_new_template */,
 				44E0D0F81FE9115B00670941 /* Products */,
+				449B85861FFA42C00020D457 /* Frameworks */,
+				A113D3A5CFCB40B7EE415A30 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +170,25 @@
 		44E0D0F91FE9115B00670941 /* Blissbox_new_template */ = {
 			isa = PBXGroup;
 			children = (
+				4440B60A2006FE3B00E29B38 /* VIew */,
+				4440B6092006FD7400E29B38 /* Controller */,
+				44413CEC2006105E00B2966F /* Model */,
+				44413CEB20060FC300B2966F /* Cell */,
 				44E0D0FA1FE9115B00670941 /* AppDelegate.swift */,
-				44E0D0FC1FE9115B00670941 /* ViewController.swift */,
-				44E0D0FE1FE9115B00670941 /* Main.storyboard */,
 				44E0D1011FE9115B00670941 /* Assets.xcassets */,
-				44E0D1031FE9115B00670941 /* LaunchScreen.storyboard */,
 				44E0D1061FE9115B00670941 /* Info.plist */,
+				449B85841FFA41030020D457 /* Quicksand */,
 			);
 			path = Blissbox_new_template;
+			sourceTree = "<group>";
+		};
+		A113D3A5CFCB40B7EE415A30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20716CB3B01486EDA633F102 /* Pods-Blissbox_new_template.debug.xcconfig */,
+				C66D1B1F81EBC300F1062B69 /* Pods-Blissbox_new_template.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44E0D1091FE9115B00670941 /* Build configuration list for PBXNativeTarget "Blissbox_new_template" */;
 			buildPhases = (
+				942963995D70AD7366AFE1C2 /* [CP] Check Pods Manifest.lock */,
 				44E0D0F31FE9115B00670941 /* Sources */,
 				44E0D0F41FE9115B00670941 /* Frameworks */,
 				44E0D0F51FE9115B00670941 /* Resources */,
+				EEE36553DBA021D08E1AB9F9 /* [CP] Embed Pods Frameworks */,
+				CA4882D8B08AE8F38FEC368B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449B85851FFA41040020D457 /* Quicksand in Resources */,
 				44E0D1051FE9115B00670941 /* LaunchScreen.storyboard in Resources */,
 				44E0D1021FE9115B00670941 /* Assets.xcassets in Resources */,
 				44E0D1001FE9115B00670941 /* Main.storyboard in Resources */,
@@ -131,13 +262,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		942963995D70AD7366AFE1C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blissbox_new_template-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4882D8B08AE8F38FEC368B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE36553DBA021D08E1AB9F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/RatingBar/RatingBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RatingBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44E0D0F31FE9115B00670941 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44E0D0FD1FE9115B00670941 /* ViewController.swift in Sources */,
+				440983B41FFF771F00199C22 /* RegisterViewController.swift in Sources */,
+				4440EBC920089D9100F0EE3B /* UniverseCollectionViewCell.swift in Sources */,
+				44E0D1111FE9FAF900670941 /* HomepageRandomExperienceCollectionViewCell.swift in Sources */,
+				44A150E81FF4ECD700052E0D /* MyAccountViewController.swift in Sources */,
+				449B858C1FFA478E0020D457 /* CartTableViewCell.swift in Sources */,
+				4440B60E20075D3C00E29B38 /* cartData.swift in Sources */,
+				4442AA3D2004BF5700622C92 /* ExperienceTableViewController.swift in Sources */,
+				4442AA3F2004C53D00622C92 /* experienceData.swift in Sources */,
+				44A150E61FF4ECC400052E0D /* CartViewController.swift in Sources */,
+				4442AA172004533B00622C92 /* apiFile.swift in Sources */,
+				4440EBC720089A3500F0EE3B /* UniverseViewController.swift in Sources */,
+				44E0D10F1FE9F54400670941 /* FeatureBoxCollectionViewCell.swift in Sources */,
+				44A150E41FF4EC4A00052E0D /* NearbyExperienceViewController.swift in Sources */,
+				44E0D10D1FE9ED4100670941 /* HomepageUniverseListCollectionViewCell.swift in Sources */,
+				4442AA15200452DF00622C92 /* giftboxData.swift in Sources */,
+				4440B60C20070B3D00E29B38 /* ScanBarcodeViewController.swift in Sources */,
+				44EB266B1FFB396800C2A138 /* LoginViewController.swift in Sources */,
 				44E0D0FB1FE9115B00670941 /* AppDelegate.swift in Sources */,
+				4442AA192004663400622C92 /* GiftboxDetailsViewController.swift in Sources */,
+				4442AA3B2004BEDD00622C92 /* ExperienceTableViewCelll.swift in Sources */,
+				44413CC82005A9FA00B2966F /* ExperienceDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +489,11 @@
 		};
 		44E0D10A1FE9115B00670941 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20716CB3B01486EDA633F102 /* Pods-Blissbox_new_template.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EQ24T7B7Q;
 				INFOPLIST_FILE = Blissbox_new_template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruixian.Blissbox-new-template";
@@ -286,9 +505,11 @@
 		};
 		44E0D10B1FE9115B00670941 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66D1B1F81EBC300F1062B69 /* Pods-Blissbox_new_template.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EQ24T7B7Q;
 				INFOPLIST_FILE = Blissbox_new_template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruixian.Blissbox-new-template";
