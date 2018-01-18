@@ -64,19 +64,40 @@ class GiftboxDetailsViewController: UIViewController {
     }
     
     @IBAction func actButtonAddToCart(_ sender: UIButton) {
-//        if let nc = self.navigationController {
-//            // pop the current view controller off the navigation stack
-//            nc.popViewController(animated: true)
-//        }
-        let selectedGiftbox = giftboxDataClass.get(index: index)
-        let addToCart = cartData.init(name: selectedGiftbox.name!, price: selectedGiftbox.price!, thumbnail: selectedGiftbox.thumbnail!, description: selectedGiftbox.description!)
-        cartDataClass.add(data: addToCart)
-        print("Giftbox have been added.")
+        alertAddToCart()
         
     }
     
     @IBAction func actButtonExploreExperience(_ sender: UIButton) {
         performSegue(withIdentifier: "giftboxDetailsToExperience", sender: self)
+    }
+    
+    func alertAddToCart() {
+        // create a UIAlertController object
+        let alert = UIAlertController(title: "title",
+                                      message: "message",
+                                      preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "Continue Shopping", style: .default, handler: actContinueShopping))
+        alert.addAction(UIAlertAction(title: "Proceed to Payment", style: .default, handler: actProceedToPayment))
+        // display the UIAlertController object
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func actContinueShopping(_ alert: UIAlertAction!) {
+        let selectedGiftbox = giftboxDataClass.get(index: index)
+        let addToCart = cartData.init(name: selectedGiftbox.name!, price: selectedGiftbox.price!, thumbnail: selectedGiftbox.thumbnail!, description: selectedGiftbox.description!)
+        cartDataClass.add(data: addToCart)
+        if let nc = self.navigationController {
+            // pop the current view controller off the navigation stack
+            nc.popViewController(animated: true)
+        }
+    }
+    func actProceedToPayment(_ alert: UIAlertAction!) {
+        let selectedGiftbox = giftboxDataClass.get(index: index)
+        let addToCart = cartData.init(name: selectedGiftbox.name!, price: selectedGiftbox.price!, thumbnail: selectedGiftbox.thumbnail!, description: selectedGiftbox.description!)
+        cartDataClass.add(data: addToCart)
+        tabBarController?.selectedIndex = 2
     }
     
     /*

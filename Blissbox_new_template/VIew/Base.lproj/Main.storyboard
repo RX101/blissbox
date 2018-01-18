@@ -248,13 +248,13 @@
         <!--Title-->
         <scene sceneID="vf2-9e-vas">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="AMU-To-t9g" customClass="GiftboxDetailsViewController" customModule="Blissbox_new_template" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AMU-To-t9g" customClass="GiftboxDetailsViewController" customModule="Blissbox_new_template" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qap-cw-xau">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwW-4w-GdO">
-                                <rect key="frame" x="0.0" y="64" width="375" height="636"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="587"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bK-mc-Hib">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="687"/>
@@ -1092,6 +1092,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="e44-Z1-FB9">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="97o-bt-kzm" kind="relationship" relationship="rootViewController" id="k4P-iB-BYC"/>
                     </connections>
