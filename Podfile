@@ -13,5 +13,8 @@ pod 'RatingBar'
 pod 'SDWebImage'
 pod 'Cosmos'
 pod 'NVActivityIndicatorView'
+pod 'FBSDKLoginKit'
+pod 'TextFieldEffects'
+pod ‘Google/SignIn’
 
 end

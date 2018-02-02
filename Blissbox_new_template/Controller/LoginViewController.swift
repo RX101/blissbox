@@ -9,8 +9,22 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import FBSDKLoginKit
+import GoogleSignIn
+import Google
 
-class LoginViewController: UIViewController,UITextFieldDelegate {
+class LoginViewController: UIViewController,UITextFieldDelegate, FBSDKLoginButtonDelegate,GIDSignInUIDelegate,GIDSignInDelegate {
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if error != nil{
+            print(error)
+            return
+        }
+        print(user.profile.email)
+        print(user.profile.name)
+        print(user.profile.description)
+        print(user.profile.imageURL(withDimension: 400))
+    }
+    
     
     let URL = "https://dev.blissbox.asia/api/login"
     var token = ""
@@ -27,9 +41,30 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         outTextFieldLoginPassword.text = "password"
         //method to check for empty textField
         setupAddTargetIsNotEmptyTextFields()
-        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
+//        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
+        let loginButton = FBSDKLoginButton()
+        loginButton.frame = CGRect(x: 16, y: 500, width: view.frame.width - 32, height: 50)
+        view.addSubview(loginButton)
         
-
+        loginButton.delegate = self
+        loginButton.readPermissions = ["email","public_profile","user_friends"]
+        
+        var error : NSError?
+        GGLContext.sharedInstance().configureWithError(&error)
+        if error != nil{
+            print(error)
+            return
+        }
+        
+        DispatchQueue.main.async {
+            GIDSignIn.sharedInstance().uiDelegate = self
+            GIDSignIn.sharedInstance().delegate = self
+        }
+        let signInButton = GIDSignInButton(frame:CGRect(x: 16, y: 570, width: view.frame.width - 32, height: 50))
+        view.addSubview(signInButton)
+        //dismiss keyboard while scrolling
+        //        scrollView.keyboardDismissMode = .onDrag
+//        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
         
     }
     
@@ -74,6 +109,33 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
             }
         }
     }
+    
+    //MARK: - Forget PasswordButton
+    /***************************************************************/
+    //Write the getToken method here:
+//    func forgetPassword(url: String, parameters: [String:String]){
+//        Alamofire.request(url, method: .post,parameters: parameters).responseJSON {
+//            response in
+//            if response.result.isSuccess{
+//                print("Success! Change the password")
+//
+//                let tokenJSON : JSON = JSON(response.result.value!)
+//                print(tokenJSON)
+//                let tokenResult = tokenJSON["message"]["token"]
+//                let statusResult = tokenJSON["status"].int!
+//                self.token = tokenResult.stringValue
+//                if (statusResult == 401){
+//                    self.alertErrorMessage(message: "Email or Password is wrong.")
+//                }else if (statusResult == 200){
+//                    self.fileAPI.apikey = self.token
+//                    //                    print(self.fileAPI.apikey)
+//                    self.performSegue(withIdentifier: "loginSuccessful", sender: self)
+//                }
+//            }else{
+//                print("Error \(String(describing: response.result.error))")
+//            }
+//        }
+//    }
     
     func setupAddTargetIsNotEmptyTextFields() {
         outButtonLogin.isEnabled = false //unenable login button
@@ -161,11 +223,36 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         self.present(alert, animated: true, completion: nil)
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
+        print("Did log out of facebook")
     }
     
+    func showEmailAddress() {
+        FBSDKGraphRequest(graphPath: "/me", parameters: ["fields": "id, name, email"]).start { (connection, result, err) in
+            
+            if err != nil {
+                print("Failed to start graph request:", err)
+                return
+            }
+            print(result!)
+        }
+    }
+    
+    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
+        if error != nil{
+            print(error)
+            return
+        }
+        
+        print("Successfully logged in with facebook...")
+        FBSDKGraphRequest(graphPath: "/me", parameters: ["fields":"email, name, id"]).start { (connection, result, err) in
+            if err != nil {
+                print("Failed to start graph request:",err)
+                return
+            }
+            print(result!)
+        }
+    }
 
     /*
     // MARK: - Navigation

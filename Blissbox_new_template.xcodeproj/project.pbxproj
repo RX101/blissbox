@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		440983B41FFF771F00199C22 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440983B31FFF771F00199C22 /* RegisterViewController.swift */; };
+		443CDC0720197BAE00379881 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 443CDC0220197BAD00379881 /* Quicksand-Regular.ttf */; };
+		443CDC0820197BAE00379881 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 443CDC0320197BAD00379881 /* Quicksand-Bold.ttf */; };
+		443CDC0920197BAE00379881 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 443CDC0420197BAD00379881 /* Quicksand-Light.ttf */; };
+		443CDC0A20197BAE00379881 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 443CDC0520197BAE00379881 /* OFL.txt */; };
+		443CDC0B20197BAE00379881 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 443CDC0620197BAE00379881 /* Quicksand-Medium.ttf */; };
 		4440B60C20070B3D00E29B38 /* ScanBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4440B60B20070B3D00E29B38 /* ScanBarcodeViewController.swift */; };
 		4440B60E20075D3C00E29B38 /* cartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4440B60D20075D3C00E29B38 /* cartData.swift */; };
 		4440EBC720089A3500F0EE3B /* UniverseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4440EBC620089A3500F0EE3B /* UniverseViewController.swift */; };
@@ -19,13 +24,17 @@
 		4442AA3B2004BEDD00622C92 /* ExperienceTableViewCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA3A2004BEDD00622C92 /* ExperienceTableViewCelll.swift */; };
 		4442AA3D2004BF5700622C92 /* ExperienceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA3C2004BF5700622C92 /* ExperienceTableViewController.swift */; };
 		4442AA3F2004C53D00622C92 /* experienceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442AA3E2004C53D00622C92 /* experienceData.swift */; };
-		449B85851FFA41040020D457 /* Quicksand in Resources */ = {isa = PBXBuildFile; fileRef = 449B85841FFA41030020D457 /* Quicksand */; };
+		444EDA11201FFFC900646ACC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 444EDA10201FFFC800646ACC /* GoogleService-Info.plist */; };
+		447E7A3A20170C0500FDA3E0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447E7A3720170C0400FDA3E0 /* FBSDKLoginKit.framework */; };
+		447E7A3B20170C0500FDA3E0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447E7A3820170C0400FDA3E0 /* Bolts.framework */; };
+		447E7A3C20170C0500FDA3E0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447E7A3920170C0500FDA3E0 /* FBSDKCoreKit.framework */; };
 		449B85881FFA42C10020D457 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449B85871FFA42C00020D457 /* MapKit.framework */; };
 		449B858A1FFA42DB0020D457 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449B85891FFA42DB0020D457 /* CoreLocation.framework */; };
 		449B858C1FFA478E0020D457 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B858B1FFA478E0020D457 /* CartTableViewCell.swift */; };
 		44A150E41FF4EC4A00052E0D /* NearbyExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A150E31FF4EC4A00052E0D /* NearbyExperienceViewController.swift */; };
 		44A150E61FF4ECC400052E0D /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A150E51FF4ECC400052E0D /* CartViewController.swift */; };
 		44A150E81FF4ECD700052E0D /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A150E71FF4ECD700052E0D /* MyAccountViewController.swift */; };
+		44D69E5C202451C400B7E2E7 /* VoucherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D69E5B202451C400B7E2E7 /* VoucherCollectionViewCell.swift */; };
 		44E0D0FB1FE9115B00670941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0D0FA1FE9115B00670941 /* AppDelegate.swift */; };
 		44E0D0FD1FE9115B00670941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0D0FC1FE9115B00670941 /* ViewController.swift */; };
 		44E0D1001FE9115B00670941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E0D0FE1FE9115B00670941 /* Main.storyboard */; };
@@ -42,6 +51,11 @@
 		00DE8D46B7CEE27AE062A22B /* Pods_Blissbox_new_template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blissbox_new_template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20716CB3B01486EDA633F102 /* Pods-Blissbox_new_template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blissbox_new_template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template.debug.xcconfig"; sourceTree = "<group>"; };
 		440983B31FFF771F00199C22 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		443CDC0220197BAD00379881 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		443CDC0320197BAD00379881 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		443CDC0420197BAD00379881 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		443CDC0520197BAE00379881 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		443CDC0620197BAE00379881 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
 		4440B60B20070B3D00E29B38 /* ScanBarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBarcodeViewController.swift; sourceTree = "<group>"; };
 		4440B60D20075D3C00E29B38 /* cartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartData.swift; sourceTree = "<group>"; };
 		4440EBC620089A3500F0EE3B /* UniverseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseViewController.swift; sourceTree = "<group>"; };
@@ -53,13 +67,17 @@
 		4442AA3A2004BEDD00622C92 /* ExperienceTableViewCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCelll.swift; sourceTree = "<group>"; };
 		4442AA3C2004BF5700622C92 /* ExperienceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewController.swift; sourceTree = "<group>"; };
 		4442AA3E2004C53D00622C92 /* experienceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceData.swift; sourceTree = "<group>"; };
-		449B85841FFA41030020D457 /* Quicksand */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Quicksand; path = ../../../Blissbox/Blissbox/Quicksand; sourceTree = "<group>"; };
+		444EDA10201FFFC800646ACC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		447E7A3720170C0400FDA3E0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		447E7A3820170C0400FDA3E0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		447E7A3920170C0500FDA3E0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		449B85871FFA42C00020D457 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		449B85891FFA42DB0020D457 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		449B858B1FFA478E0020D457 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
 		44A150E31FF4EC4A00052E0D /* NearbyExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyExperienceViewController.swift; sourceTree = "<group>"; };
 		44A150E51FF4ECC400052E0D /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		44A150E71FF4ECD700052E0D /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		44D69E5B202451C400B7E2E7 /* VoucherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherCollectionViewCell.swift; sourceTree = "<group>"; };
 		44E0D0F71FE9115B00670941 /* Blissbox_new_template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blissbox_new_template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E0D0FA1FE9115B00670941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E0D0FC1FE9115B00670941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,8 +97,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447E7A3B20170C0500FDA3E0 /* Bolts.framework in Frameworks */,
+				447E7A3C20170C0500FDA3E0 /* FBSDKCoreKit.framework in Frameworks */,
 				449B858A1FFA42DB0020D457 /* CoreLocation.framework in Frameworks */,
 				449B85881FFA42C10020D457 /* MapKit.framework in Frameworks */,
+				447E7A3A20170C0500FDA3E0 /* FBSDKLoginKit.framework in Frameworks */,
 				6054F5902EDA2C3BDD08EF58 /* Pods_Blissbox_new_template.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +109,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		443CDC0120197B9100379881 /* Quicksand */ = {
+			isa = PBXGroup;
+			children = (
+				443CDC0520197BAE00379881 /* OFL.txt */,
+				443CDC0320197BAD00379881 /* Quicksand-Bold.ttf */,
+				443CDC0420197BAD00379881 /* Quicksand-Light.ttf */,
+				443CDC0620197BAE00379881 /* Quicksand-Medium.ttf */,
+				443CDC0220197BAD00379881 /* Quicksand-Regular.ttf */,
+			);
+			path = Quicksand;
+			sourceTree = "<group>";
+		};
 		4440B6092006FD7400E29B38 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +132,7 @@
 				44A150E71FF4ECD700052E0D /* MyAccountViewController.swift */,
 				44A150E31FF4EC4A00052E0D /* NearbyExperienceViewController.swift */,
 				44E0D0FC1FE9115B00670941 /* ViewController.swift */,
+				44D69E5B202451C400B7E2E7 /* VoucherCollectionViewCell.swift */,
 				44413CC72005A9FA00B2966F /* ExperienceDetailsViewController.swift */,
 				4442AA3C2004BF5700622C92 /* ExperienceTableViewController.swift */,
 				44EB266A1FFB396800C2A138 /* LoginViewController.swift */,
@@ -106,13 +140,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		4440B60A2006FE3B00E29B38 /* VIew */ = {
+		4440B60A2006FE3B00E29B38 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				44E0D0FE1FE9115B00670941 /* Main.storyboard */,
 				44E0D1031FE9115B00670941 /* LaunchScreen.storyboard */,
 			);
-			path = VIew;
+			path = View;
 			sourceTree = "<group>";
 		};
 		44413CEB20060FC300B2966F /* Cell */ = {
@@ -142,6 +176,9 @@
 		449B85861FFA42C00020D457 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				447E7A3820170C0400FDA3E0 /* Bolts.framework */,
+				447E7A3920170C0500FDA3E0 /* FBSDKCoreKit.framework */,
+				447E7A3720170C0400FDA3E0 /* FBSDKLoginKit.framework */,
 				449B85891FFA42DB0020D457 /* CoreLocation.framework */,
 				449B85871FFA42C00020D457 /* MapKit.framework */,
 				00DE8D46B7CEE27AE062A22B /* Pods_Blissbox_new_template.framework */,
@@ -170,14 +207,15 @@
 		44E0D0F91FE9115B00670941 /* Blissbox_new_template */ = {
 			isa = PBXGroup;
 			children = (
-				4440B60A2006FE3B00E29B38 /* VIew */,
+				4440B60A2006FE3B00E29B38 /* View */,
 				4440B6092006FD7400E29B38 /* Controller */,
 				44413CEC2006105E00B2966F /* Model */,
 				44413CEB20060FC300B2966F /* Cell */,
 				44E0D0FA1FE9115B00670941 /* AppDelegate.swift */,
 				44E0D1011FE9115B00670941 /* Assets.xcassets */,
 				44E0D1061FE9115B00670941 /* Info.plist */,
-				449B85841FFA41030020D457 /* Quicksand */,
+				444EDA10201FFFC800646ACC /* GoogleService-Info.plist */,
+				443CDC0120197B9100379881 /* Quicksand */,
 			);
 			path = Blissbox_new_template;
 			sourceTree = "<group>";
@@ -253,10 +291,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449B85851FFA41040020D457 /* Quicksand in Resources */,
+				443CDC0A20197BAE00379881 /* OFL.txt in Resources */,
+				443CDC0B20197BAE00379881 /* Quicksand-Medium.ttf in Resources */,
+				444EDA11201FFFC900646ACC /* GoogleService-Info.plist in Resources */,
 				44E0D1051FE9115B00670941 /* LaunchScreen.storyboard in Resources */,
 				44E0D1021FE9115B00670941 /* Assets.xcassets in Resources */,
 				44E0D1001FE9115B00670941 /* Main.storyboard in Resources */,
+				443CDC0920197BAE00379881 /* Quicksand-Light.ttf in Resources */,
+				443CDC0720197BAE00379881 /* Quicksand-Regular.ttf in Resources */,
+				443CDC0820197BAE00379881 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +330,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -304,22 +350,36 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Blissbox_new_template/Pods-Blissbox_new_template-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/RatingBar/RatingBar.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RatingBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -340,6 +400,7 @@
 				44A150E81FF4ECD700052E0D /* MyAccountViewController.swift in Sources */,
 				449B858C1FFA478E0020D457 /* CartTableViewCell.swift in Sources */,
 				4440B60E20075D3C00E29B38 /* cartData.swift in Sources */,
+				44D69E5C202451C400B7E2E7 /* VoucherCollectionViewCell.swift in Sources */,
 				4442AA3D2004BF5700622C92 /* ExperienceTableViewController.swift in Sources */,
 				4442AA3F2004C53D00622C92 /* experienceData.swift in Sources */,
 				44A150E61FF4ECC400052E0D /* CartViewController.swift in Sources */,
@@ -494,6 +555,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5EQ24T7B7Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Blissbox_new_template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruixian.Blissbox-new-template";
@@ -510,6 +575,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5EQ24T7B7Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Blissbox_new_template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruixian.Blissbox-new-template";

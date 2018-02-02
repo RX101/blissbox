@@ -8,7 +8,8 @@
 
 import UIKit
 
-class MyAccountViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MyAccountViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource {
+    @IBOutlet weak var outCollectionViewVoucher: UICollectionView!
    
     var arrayMyAccount : [String] = ["Login","My Giftbox","Activate Voucher","My Orders","Change Password","Add Payment Method"]
 
@@ -17,6 +18,8 @@ class MyAccountViewController: UIViewController,UITableViewDelegate,UITableViewD
         super.viewDidLoad()
         outTableViewMyAccount.delegate = self
         outTableViewMyAccount.dataSource = self
+        outCollectionViewVoucher.delegate = self
+        outCollectionViewVoucher.dataSource = self
 
         // Do any additional setup after loading the view.
     }
@@ -65,6 +68,21 @@ class MyAccountViewController: UIViewController,UITableViewDelegate,UITableViewD
     }
     override func viewWillAppear(_ animated: Bool) {
         outTableViewMyAccount.reloadData()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellVoucher", for: indexPath) as! VoucherCollectionViewCell
+        let item = indexPath.item
+        let row = indexPath.row
+        cell.outLabelGiftboxName.text = "Enjoy Giftinggg"
+        cell.outLabelGiftboxVoucherCode.text = "123344"
+        cell.outLabelGiftboxVoucherPin.text = "123344"
+        
+        return cell
     }
 
     /*

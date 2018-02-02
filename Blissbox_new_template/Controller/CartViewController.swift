@@ -72,7 +72,8 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        performSegue(withIdentifier: "showCartDetails", sender: self)
     }
-    @IBAction func actButtonPayment(_ sender: UIButton) {
+    
+    @IBAction func actBarButtonItemPayment(_ sender: UIBarButtonItem) {
 //        performSegue(withIdentifier: "proceedToOrderSummary", sender: self)
     }
 
